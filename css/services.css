@@ -875,6 +875,9 @@ position: relative;
 }
 
 
+.content_seven_sub_container .content_three_sub_container_link_img {
+    border: 1px solid var(--primary_color);
+}
 
 
 
