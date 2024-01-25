@@ -194,7 +194,7 @@ nav ul li a:hover:after {
     font-weight: 500;
     margin: 20px auto;
     width: 100%;
-    max-width: 60%;
+    max-width: 70%;
 }
 
 .content_one_sub_container_text p {
@@ -837,6 +837,8 @@ nav ul li a:hover:after {
 
 
 
+
+
 .content_five {
     justify-content: center;
     align-items: center;
@@ -849,7 +851,7 @@ nav ul li a:hover:after {
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding: 4rem 0 7rem;
+    padding: 4rem 0 0rem;
 }
 
 .content_five_sub_container {
@@ -860,7 +862,7 @@ nav ul li a:hover:after {
 }
 
 .content_five_sub_container_details {
-    padding: 3rem 0px;
+    padding: 3rem 0px 0;
 }
 
 .content_five_sub_container_details_sub1 {
@@ -939,6 +941,67 @@ nav ul li a:hover:after {
 .content_five_sub_container_details_text_box_two {
     margin-top: 70px;
 }
+
+
+
+.filler {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.filler_sub {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+
+    background-color: var(--linking_color);
+    padding: 5rem 5%;
+}
+
+.filler_sub_container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.filler_sub_container_text {
+    width: 100%;
+    height: 100%;
+}
+
+.filler_sub_container_text h2 {
+    font-size: 2.5em;
+    margin: 10px 0;
+    color: var(--primary_color);
+}
+
+.filler_sub_container_text p {
+    font-size: 1em;
+    margin: 20px 0 10px;
+    line-height: 1.6;
+    letter-spacing: .2px;
+    color: var(--primary_color);
+}
+
+.filler_sub_container_img {
+    width: 100%;
+    height: 100%;
+    text-align: right;
+}
+
+.filler_sub_container_img img {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+
+
 
 .content_six {
     justify-content: center;
@@ -1241,16 +1304,24 @@ nav ul li a:hover:after {
     margin: auto;
     width: 100%;
     height: 100%;
-    padding: 3rem 5%;
+    padding: 4rem 5% 4rem;
 }
 
 .content_seven_sub .head {
-    text-align: left;
+    text-align: center;
 }
 
 .content_seven_sub .head h2 {
-    text-align: left;
+    text-align: center;
     color: var(--header_text);
+}
+
+.content_seven_sub .head p {
+    font-size: 1em;
+    font-weight: 300;
+    text-align: center;
+    width: 100%;
+    margin: 10px auto;
 }
 
 .content_seven_sub_container {

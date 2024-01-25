@@ -289,7 +289,7 @@ nav ul li a:hover:after {
     height: 1px;
     bottom: 2px;
     left: 0;
-    background-color: gray;
+    background-color: var(--linking_color);
 }
 
 .content_two_sub .head h2::before {
@@ -300,7 +300,7 @@ nav ul li a:hover:after {
     height: 4px;
     bottom: 0;
     left: 0;
-    background-color: gray;
+    background-color: var(--linking_color);
     border-radius: 10px;
 }
 
@@ -445,7 +445,7 @@ nav ul li a:hover:after {
     height: 1px;
     bottom: 2px;
     left: 0;
-    background-color: gray;
+    background-color: var(--linking_color);
 }
 
 .content_three_sub_container_details_head .head h2::before {
@@ -456,7 +456,7 @@ nav ul li a:hover:after {
     height: 4px;
     bottom: 0;
     left: 0;
-    background-color: gray;
+    background-color: var(--linking_color);
     border-radius: 10px;
 }
 
@@ -537,7 +537,7 @@ nav ul li a:hover:after {
     height: 1px;
     bottom: 2px;
     left: 0;
-    background-color: gray;
+    background-color: var(--linking_color);
 }
 
 .content_three_sub_container_details_two .head h2::before {
@@ -548,7 +548,7 @@ nav ul li a:hover:after {
     height: 4px;
     bottom: 0;
     left: 0;
-    background-color: rgb(128, 128, 128);
+    background-color: var(--linking_color);
     border-radius: 10px;
 }
 
